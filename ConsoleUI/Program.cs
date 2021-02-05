@@ -15,7 +15,7 @@ namespace ConsoleUI
             {
                 foreach (var car in carManager.GetAll())
                 {
-                    Console.WriteLine("Araba Id:" + car.CarId + " Araba Marka:" + car.BrandId + " Günlük Ücret:" + car.DailyPrice + " Açıklama;" + car.Description + " Model Yılı:" + car.ModelYear);
+                    Console.WriteLine("Car Id:" + car.CarId + " Araba Marka:" + car.BrandId + " Günlük Ücret:" + car.DailyPrice + " Açıklama;" + car.Description + " Model Yılı:" + car.ModelYear);
                     
                 }
                 Console.WriteLine("");
