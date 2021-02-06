@@ -14,44 +14,48 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
-     
+
         public void Add(Car car)
         {
-            _carDal.Add(car);
-            Console.WriteLine("id'si "+car.CarId+" olan araba eklendi.");
+            if(car.DailyPrice>0){
+             _carDal.Add(car);
+                Console.WriteLine("Araç eklendi.");
+            }
+            else
+                Console.WriteLine("Günlük fiyat giriniz.");
         }
 
         public void Delete(Car car)
         {
-            _carDal.Delete(car);
-            Console.WriteLine(car.CarId + " Araba silindi.");
+            throw new NotImplementedException();
         }
 
         public List<Car> GetAll()
         {
-            var mesaj = "arabalar listelendi";
-            try
-            {
-                return _carDal.GetAll();
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-                             
+          
+            return _carDal.GetAll();           
+            
         }
 
-        public Car GetById(int CarId)
+        public List<Car> GetAllById(int id)
         {
-            return _carDal.GetById(CarId);
-            Console.WriteLine(" Araba silindi.");
+            return _carDal.GetAll(c => c.CarId == id);
         }
 
+
+        public List<Car> GetCarsByBrandId(int id)
+        {
+            return _carDal.GetAll(c => c.BrandId == id);
+        }
+
+        public List<Car> GetCarsByColorId(int id)
+        {
+            return _carDal.GetAll(c => c.ColorId == id);
+        }
 
         public void Update(Car car)
         {
-            _carDal.Update(car);
+            throw new NotImplementedException();
         }
     }
 }
