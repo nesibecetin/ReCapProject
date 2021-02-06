@@ -30,14 +30,24 @@ namespace Business.Concrete
         public List<Car> GetAll()
         {
             var mesaj = "arabalar listelendi";
-            return _carDal.GetAll();           
-            
+            try
+            {
+                return _carDal.GetAll();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+                             
         }
 
-        public List<Car> GetById(int CarId)
+        public Car GetById(int CarId)
         {
             return _carDal.GetById(CarId);
+            Console.WriteLine(" Araba silindi.");
         }
+
 
         public void Update(Car car)
         {

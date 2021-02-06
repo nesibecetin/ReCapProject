@@ -11,7 +11,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             CarManager carManager = new CarManager(new InMemoryCarDal());
-            void Listele()
+            void GetAll()
             {
                 foreach (var car in carManager.GetAll())
                 {
@@ -21,15 +21,20 @@ namespace ConsoleUI
                 Console.WriteLine("");
             }
 
-            Listele();
+            GetAll();
             Car car1 = new Car() {CarId=4,BrandId=4,DailyPrice=100,Description="4.araba",ModelYear=2001 };
             carManager.Add(car1);
             Console.WriteLine("");
-            Listele();
-            carManager.GetById(2);
+            GetAll();
+
+            Console.WriteLine("");
+            Console.WriteLine(car1.Description);
+
+            Console.WriteLine(car1.Description);
+
             carManager.Delete(car1);
             Console.WriteLine("");
-            Listele();
+            GetAll();
 
 
         }
