@@ -20,7 +20,7 @@ namespace Business.Concrete
             if (brand.BrandName.Length > 2)
             {
                 _brandDal.Add(brand);
-                Console.WriteLine("Marka eklendi.");
+                Console.WriteLine(brand.BrandName+" Marka eklendi.");
             }
             else
                 Console.WriteLine("Daha uzun marka giriniz.");
@@ -28,7 +28,8 @@ namespace Business.Concrete
 
         public void Delete(Brand brand)
         {
-            throw new NotImplementedException();
+            _brandDal.Delete(brand);
+            Console.WriteLine(brand.BrandName+" Marka Silindi.");
         }
 
         public List<Brand> GetAll()
@@ -46,7 +47,7 @@ namespace Business.Concrete
 
         public void Update(Brand brand)
         {
-            throw new NotImplementedException();
+            _brandDal.Update(brand);
         }
     }
 }

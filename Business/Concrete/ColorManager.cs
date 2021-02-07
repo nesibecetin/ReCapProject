@@ -17,12 +17,14 @@ namespace Business.Concrete
 
         public void Add(Color color)
         {
-            throw new NotImplementedException();
+            _colorDal.Add(color);
+            Console.WriteLine(color.ColorName+" Renk eklendi.");
         }
 
         public void Delete(Color color)
         {
-            throw new NotImplementedException();
+            _colorDal.Delete(color);
+            Console.WriteLine(color.ColorName + " Renk Silindi.");
         }
 
         public List<Color> GetAll()
@@ -41,7 +43,7 @@ namespace Business.Concrete
 
         public void Update(Color color)
         {
-            throw new NotImplementedException();
+            _colorDal.Update(color);
         }
     }
 }
