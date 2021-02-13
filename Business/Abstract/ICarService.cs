@@ -1,6 +1,6 @@
 ﻿using Core.Utilities.Results;
 using Entities;
-using Entities.IDtos;
+using Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,8 +15,8 @@ namespace Business.Abstract
         IDataResult<List<Car>> GetCarsByColorId(int id);
         IDataResult<List<CarDetailDto>> GetCarDetails();
         IResult Add(Car car);
-        void Delete(Car car);
-        void Update(Car car);
+        IResult Delete(Car car);
+        IResult Update(Car car);
 
     }
 }

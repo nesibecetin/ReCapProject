@@ -3,7 +3,7 @@ using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities;
-using Entities.IDtos;
+using Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -30,10 +30,10 @@ namespace Business.Concrete
                 return new ErrorResult(Messages.CarInvalid);
         }
 
-        public void Delete(Car car)
+        public IResult Delete(Car car)
         {
             _carDal.Delete(car);
-            Console.WriteLine(car.CarName + " Araç Silindi.");
+            return new SuccessResult(Messages.CarDeleted);
         }
 
         public IDataResult<List<Car>> GetAll()
@@ -63,9 +63,10 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == id), Messages.CarListed);
         }
 
-        public void Update(Car car)
+        public IResult Update(Car car)
         {
             _carDal.Update(car);
+            return new SuccessResult(Messages.CarUpdated);
         }
     }
 }

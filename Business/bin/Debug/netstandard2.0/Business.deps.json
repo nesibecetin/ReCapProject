@@ -10,7 +10,6 @@
       "Business/1.0.0": {
         "dependencies": {
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {

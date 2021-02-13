@@ -26,7 +26,7 @@ namespace ConsoleUI
             BrandList();
 
             Console.WriteLine("----------------------Ekleme İşlemleri----------------------");
-            CarAdd();
+        //    CarAdd();
 
 
 
@@ -40,7 +40,17 @@ namespace ConsoleUI
             //carManager.Delete(car1);
             //brandManager.Delete(brand1);
             //colorManager.Delete(color1);
-
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var result = rentalManager.Add(new Rental
+            {
+                CarId = 2,
+                CustomerId = 1,
+                RentDate = new DateTime(2021, 2, 15),
+                ReturnDate = new DateTime(2021, 3, 12),
+                RentalId=1
+            });
+            Console.WriteLine(result.Message);
+            
 
 
 
@@ -50,8 +60,9 @@ namespace ConsoleUI
         {
             
             CarManager carManager = new CarManager(new EfCarDal());
-            Car car1 = new Car { CarId = 5, BrandId = 2, CarName = "G class", ColorId = 3, DailyPrice = 200, Description = "sjjas", ModelYear = 2000 };
-            carManager.Add(car1);
+            Car car1 = new Car { CarId = 7, BrandId = 2, CarName = "G class", ColorId = 3, DailyPrice = 200, Description = "sjjas", ModelYear = 2000 };
+            var result = carManager.Add(car1);
+            Console.WriteLine(result.Message);
         }
 
         private static void BrandList()

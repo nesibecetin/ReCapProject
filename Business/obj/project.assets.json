@@ -6252,7 +6252,6 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "DataAccess >= 1.0.0",
-      "Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -6285,9 +6284,6 @@
           "projectReferences": {
             "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
-            },
-            "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }

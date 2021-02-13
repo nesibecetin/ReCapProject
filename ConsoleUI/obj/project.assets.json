@@ -1472,8 +1472,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "DataAccess": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}

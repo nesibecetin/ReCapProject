@@ -47,11 +47,14 @@ namespace Business.Concrete
         }
 
       
-        public Brand GetById(int id)
+        public IDataResult<Brand> GetById(int id)
         {
-            return _brandDal.Get(b => b.BrandId == id);
+            return new SuccessDataResult<Brand>(_brandDal.Get(b => b.BrandId == id), Messages.BrandListed);
         }
+        
 
+            
+       
         public IResult Update(Brand brand)
         {
             _brandDal.Update(brand);

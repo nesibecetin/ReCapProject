@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entities.IDtos
+namespace Entities.Dtos
 {
     public class CarDetailDto:IDto
     {
