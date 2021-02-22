@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JkrYcAoK8B8W4xLHNiQPeavJD1MMl4GHs6Si+U74oW8ufRu84gD+WstRBgzvOY22mcaToRv4/Rmgu1+xsqDYPw==",
+  "dgSpecHash": "kkA23Vlkg3nsVmxg7IIxYZ1WC/d5b+zYP27l6GmtiAtc7zJvFqSQPpaR9kSRiPTkdfQcPDa8oE3qDclqqDzHbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nesibe\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Nesibe\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
