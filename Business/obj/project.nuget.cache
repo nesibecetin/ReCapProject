@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4oOnn7xoUJCOgpCEITHXUvUSTQDfUwO1Y8JzAbU9k9agb1PmILuif6u08z4EMKJr622APZC5GSOd8tOFG64Tlg==",
+  "dgSpecHash": "XskrdkHanazFBwY93ncQ3uJCsYBnjT5WuOQnQz8RvYK6IIw4G3D6LYC0H4bDyw16vAKWV6eI68R6Ti5CKufLsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nesibe\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\Nesibe\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

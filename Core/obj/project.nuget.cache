@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tgH+7IRfgbOiYxT5RBTYc+tzg9hlT/KZwG4MmPBvHEL7RNy0ffIqQ1vmNb8PTZ0xc1rIkMw9sJ3md53IR7Q88A==",
+  "dgSpecHash": "VUAZDHnjBvtvPwGikl5uDu+zf6vubGgEx0sJyO1JeNlvyskbUrHN7JNKu1N74D2u82m2jI8NGVQeNGMw1/5qRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nesibe\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
