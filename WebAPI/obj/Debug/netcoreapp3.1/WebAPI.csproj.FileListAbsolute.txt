@@ -69,3 +69,5 @@ C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
