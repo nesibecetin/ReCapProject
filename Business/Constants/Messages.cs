@@ -25,5 +25,8 @@ namespace Business.Constants
         internal static string RentalListed;
         internal static string RentalUpdated;
         internal static string RentalInvalid;
+        internal static object ImagesAdded;
+
+        internal static string CarImageLimit = "5'den fazla resim ekleyemezsiniz."; 
     }
 }

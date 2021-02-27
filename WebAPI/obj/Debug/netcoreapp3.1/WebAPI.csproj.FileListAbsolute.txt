@@ -71,3 +71,7 @@ C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
