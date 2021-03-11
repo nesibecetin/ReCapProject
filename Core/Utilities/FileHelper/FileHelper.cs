@@ -34,11 +34,30 @@ namespace Core.Utilities.FileHelper
           
             
         }
-        public static string newPath(IFormFile file)
+        public static string Update(string sourcepath, IFormFile formFile)
+        {
+            var result = newPath(formFile);
+            if (formFile.Length > 0)
+            {
+                using (Stream stream = new FileStream(result, FileMode.Create))
+                {
+                    formFile.CopyTo(stream);
+                }
+            }
+            File.Delete(sourcepath);
+            return result;
+        }
+        public static void Delete(string path)
+        {
+            
+             File.Delete(path);
+       
+        }
+        public static string newPath(IFormFile formFile)
         {
            
             string path = Environment.CurrentDirectory + @"\wwwroot\Images";
-            var newPath = Guid.NewGuid().ToString() + "_" + Path.GetExtension(file.FileName);
+            var newPath = Guid.NewGuid().ToString() + "_" + Path.GetExtension(formFile.FileName);
 
             string result = $@"{path}\{newPath}";
             return result;
