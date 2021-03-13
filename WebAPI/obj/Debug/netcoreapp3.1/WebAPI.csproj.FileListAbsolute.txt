@@ -75,3 +75,4 @@ C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microso
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Nesibe\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

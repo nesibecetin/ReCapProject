@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -27,6 +29,14 @@ namespace Business.Constants
         internal static string RentalInvalid;
         internal static object ImagesAdded;
 
-        internal static string CarImageLimit = "5'den fazla resim ekleyemezsiniz."; 
+        internal static string CarImageLimit = "5'den fazla resim ekleyemezsiniz.";
+        public static string AuthorizationDenied="Giriş yapılamadı.";
+        internal static string UserRegistered="Kullanıcı Kaydedildi.";
+        internal static string UserNotFound="c";
+        internal static string PasswordError="d";
+        internal static string SuccessfulLogin="e";
+        public static string UserAlreadyExists = "b";
+        internal static string AddedUser="a";
+        internal static string AccessTokenCreated="f";
     }
 }
