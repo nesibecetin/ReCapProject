@@ -25,9 +25,9 @@ namespace WebAPI.Controllers
             var result = _brandService.GetAll();
             if (result.isSuccess)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpPost("add")]
         public IActionResult Add(Brand brand)
