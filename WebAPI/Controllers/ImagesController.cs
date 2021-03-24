@@ -67,9 +67,9 @@ namespace WebAPI.Controllers
             var result = _carImageSevice.GetAll();
             if (result.isSuccess)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
 
         [HttpGet("getbyid")]
@@ -78,9 +78,9 @@ namespace WebAPI.Controllers
             var result = _carImageSevice.GetById(id);
             if (result.isSuccess)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
 
     }

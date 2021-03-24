@@ -25,9 +25,9 @@ namespace WebAPI.Controllers
             var result = _rentalService.GetAll();
             if (result.isSuccess)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpPost("add")]
         public IActionResult Add(Rental rental)
@@ -35,9 +35,9 @@ namespace WebAPI.Controllers
             var result = _rentalService.Add(rental);
             if (result.isSuccess)
             {
-                return Ok(result.Message);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpGet("getbyid")]
         public IActionResult GetById(int id)
@@ -45,9 +45,9 @@ namespace WebAPI.Controllers
             var result = _rentalService.GetById(id);
             if (result.isSuccess)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpDelete("delete")]
         public IActionResult Delete(Rental rental)
@@ -55,9 +55,9 @@ namespace WebAPI.Controllers
             var result = _rentalService.Delete(rental);
             if (result.isSuccess)
             {
-                return Ok(result.Message);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpPut("update")]
         public IActionResult Updated(Rental rental)
@@ -65,9 +65,21 @@ namespace WebAPI.Controllers
             var result = _rentalService.Update(rental);
             if (result.isSuccess)
             {
-                return Ok(result.Message);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
+        [HttpGet("getrentaldetails")]
+        public IActionResult GetRentalDetails()
+        {
+            var result = _rentalService.GetRentalDetails();
+            if (result.isSuccess)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+
     }
 }

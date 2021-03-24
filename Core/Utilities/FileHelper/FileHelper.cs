@@ -11,16 +11,19 @@ namespace Core.Utilities.FileHelper
     {
         public static string Add(IFormFile formFile)
         {
-            string sourcepath = Path.Combine(Directory.GetCurrentDirectory(), formFile.FileName);
+            var result = newPath(formFile);
+               
             try
             {
+               
                 if (formFile.Length > 0)
                 {
-                    using (Stream stream = new FileStream(sourcepath, FileMode.Create))
+                    using (var stream = new FileStream(result.newPath, FileMode.Create))
                     {
                         formFile.CopyTo(stream);
                     }
                 }
+
             }
             catch (Exception)
             {
@@ -28,9 +31,9 @@ namespace Core.Utilities.FileHelper
                 throw;
             }
 
-            var result = newPath(formFile);
-            File.Move(sourcepath, result);
-            return result;
+            
+            
+            return result.path2;
           
             
         }
@@ -39,13 +42,13 @@ namespace Core.Utilities.FileHelper
             var result = newPath(formFile);
             if (formFile.Length > 0)
             {
-                using (Stream stream = new FileStream(result, FileMode.Create))
+                using (Stream stream = new FileStream(result.newPath, FileMode.Create))
                 {
                     formFile.CopyTo(stream);
                 }
             }
             File.Delete(sourcepath);
-            return result;
+            return result.path2;
         }
         public static void Delete(string path)
         {
@@ -53,14 +56,15 @@ namespace Core.Utilities.FileHelper
              File.Delete(path);
        
         }
-        public static string newPath(IFormFile formFile)
+        public static (string newPath,string path2 ) newPath(IFormFile formFile)
         {
            
             string path = Environment.CurrentDirectory + @"\wwwroot\Images";
             var newPath = Guid.NewGuid().ToString() + "_" + Path.GetExtension(formFile.FileName);
 
             string result = $@"{path}\{newPath}";
-            return result;
+            return (result, newPath);
+
         }
     }
 }

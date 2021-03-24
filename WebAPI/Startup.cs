@@ -77,6 +77,7 @@ namespace WebAPI
             app.UseAuthentication();
 
             app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {

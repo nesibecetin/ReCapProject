@@ -25,9 +25,9 @@ namespace WebAPI.Controllers
             var result = _customerService.GetAll();
             if (result.isSuccess)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpPost("add")]
         public IActionResult Add(Customer customer)
@@ -35,9 +35,9 @@ namespace WebAPI.Controllers
             var result = _customerService.Add(customer);
             if (result.isSuccess)
             {
-                return Ok(result.Message);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpGet("getbyid")]
         public IActionResult GetById(int id)
@@ -45,9 +45,9 @@ namespace WebAPI.Controllers
             var result = _customerService.GetById(id);
             if (result.isSuccess)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpDelete("delete")]
         public IActionResult Delete(Customer customer)
@@ -55,9 +55,9 @@ namespace WebAPI.Controllers
             var result = _customerService.Delete(customer);
             if (result.isSuccess)
             {
-                return Ok(result.Message);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpPut("update")]
         public IActionResult Updated(Customer customer)
@@ -65,9 +65,9 @@ namespace WebAPI.Controllers
             var result = _customerService.Update(customer);
             if (result.isSuccess)
             {
-                return Ok(result.Message);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
     }
 }

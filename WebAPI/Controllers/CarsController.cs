@@ -79,7 +79,17 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
-        
+        [HttpGet("getcardetailsbyid")]
+        public IActionResult GetCarDetailsById(int id)
+        {
+            var result = _carService.GetCarDetailsById(id);
+            if (result.isSuccess)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
 
         [HttpDelete("delete")]
         public IActionResult Delete(Car car)

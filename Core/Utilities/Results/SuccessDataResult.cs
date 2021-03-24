@@ -22,5 +22,6 @@ namespace Core.Utilities.Results
         {
 
         }
+        
     }
 }
