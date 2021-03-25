@@ -74,6 +74,7 @@ namespace Business.Concrete
 
         public IDataResult<List<CarDetailDto>> GetCarsByBrandId(int id)
         {
+
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.BrandId == id), Messages.CarListed);
         }
 
@@ -95,5 +96,9 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CarUpdated);
         }
 
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByFilter(int brandId, int colorId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c=>c.BrandId==brandId & c.ColorId==colorId), Messages.CarListed);
+        }
     }
 }

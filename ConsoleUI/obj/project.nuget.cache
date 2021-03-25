@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WEYPe+SA3i9MjyFjf/fEvNv3fem2X+cKJcdXJ4YuIdwnqK5iHImcIazKB8/ZtaDCtelXAxU7xA3aqyIBXAxe9g==",
+  "dgSpecHash": "XNrIwgIKqAWI8fYrEEoDsFFVETOGJtbRTHB/uhYE+XKTqLoreTKo8wB23msCJUUI5XEtNpTQRSmd7pqEsaj7Dg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nesibe\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
@@ -134,8 +134,7 @@
     "C:\\Users\\Nesibe\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Nesibe\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Nesibe\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Nesibe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+    "C:\\Users\\Nesibe\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
