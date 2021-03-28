@@ -20,23 +20,24 @@ namespace Business.Constants
         public static string ColorDeleted="";
         public static string ColorListed="";
         public static string ColorUpdated="";
-        internal static string CustomerAdded;
-        internal static string CustomerListed;
-        internal static string RentalAdded;
-        internal static string RentalDeleted;
-        internal static string RentalListed;
-        internal static string RentalUpdated;
-        internal static string RentalInvalid;
-        internal static object ImagesAdded;
+        public static string CustomerAdded="";
+        public static string CustomerListed="";
+        public static string RentalAdded="";
+        public static string RentalDeleted="";
+        public static string RentalListed="";
+        public static string RentalUpdated="";
+        public static string RentalInvalid="Araç Önce Teslim Edilmeli.";
+        public static string ImagesAdded="";
 
-        internal static string CarImageLimit = "5'den fazla resim ekleyemezsiniz.";
+        public static string CarImageLimit = "5'den fazla resim ekleyemezsiniz.";
         public static string AuthorizationDenied="Giriş yapılamadı.";
-        internal static string UserRegistered="Kullanıcı Kaydedildi.";
-        internal static string UserNotFound="c";
-        internal static string PasswordError="d";
-        internal static string SuccessfulLogin="e";
+        public static string UserRegistered="Kullanıcı Kaydedildi.";
+        public static string UserNotFound="c";
+        public static string PasswordError="d";
+        public static string SuccessfulLogin="e";
         public static string UserAlreadyExists = "b";
-        internal static string AddedUser="a";
-        internal static string AccessTokenCreated="f";
+        public static string AddedUser="a";
+        public static string AccessTokenCreated="f";
+        public static string RentalCar="";
     }
 }
