@@ -16,7 +16,7 @@ namespace Business.Constants
         public static string BrandInvalid = "Geçersiz Marka Özelliği";
         public static string CarUpdated="";
         public static string CarDeleted="";
-        public static string ColorAdded="";
+        public static string ColorAdded= "Renk eklendi.";
         public static string ColorDeleted="";
         public static string ColorListed="";
         public static string ColorUpdated="";
