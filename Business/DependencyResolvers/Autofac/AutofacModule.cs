@@ -34,6 +34,8 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<EfCarImageDal>().As<ICarImageDal>();
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+            builder.RegisterType<AccountManager>().As<IAccountService>();
+            builder.RegisterType<EfAccountDal>().As<IAccountDal>();
 
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
