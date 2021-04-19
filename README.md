@@ -34,4 +34,4 @@ A car rental project developed with C# and .Net Core Framework. The project was 
 
 ## **How to Reach Me**
 
-LINKEDIN(https://www.linkedin.com/in/nesibe-cetin/)
+[LINKEDIN](https://www.linkedin.com/in/nesibe-cetin/)
