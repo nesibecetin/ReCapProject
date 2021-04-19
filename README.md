@@ -1,7 +1,7 @@
 # **ReCapProject** - Rent A Car Project
----
+
 ## **Introduction**
----
+
 A car rental project developed with C# and .Net Core Framework. The project was created by taking into account the layered architecture and SOLID principles.
 
 ## **Built With**
@@ -11,7 +11,7 @@ A car rental project developed with C# and .Net Core Framework. The project was 
 * MsSQL Server
 
 ## **Layers**
----
+
 * **Core:** The main layer of the project is used for universal operations.
 * **Entities:** Our assets in the tables in the database have been created as objects in the project. It also includes DTO objects. 
 * **DataAccess:** It is the layer on which database operations are performed in the project.
@@ -20,14 +20,16 @@ A car rental project developed with C# and .Net Core Framework. The project was 
 
 ## **Used Technologies**
 
-* JWT Integration
-* AOP,Aspect Oriented Programming
-* Transaction Aspect
-* Cache Aspect
-* Validation Aspect
-* Performance Aspect
-* For Validation, FluentValidation Support.
-* For IoC, Autofac support has been added.
-* Exception Middleware
+* **JWT Integration**
+* **AOP,Aspect Oriented Programming**
+* **Transaction Aspect**
+* **Cache Aspect**
+* **Validation Aspect**
+* **Performance Aspect**
+* **For Validation, FluentValidation Support.***
+* **For IoC, Autofac support has been added**
+* **Exception Middleware**
 
-Linkedin Badge
+## **How to Reach Me**
+![indir](https://user-images.githubusercontent.com/33204265/115180246-d5326b80-a0dd-11eb-8c15-d20392a1808a.png)(https://www.linkedin.com/in/nesibe-cetin/)
+
