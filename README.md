@@ -31,5 +31,5 @@ A car rental project developed with C# and .Net Core Framework. The project was 
 * **Exception Middleware**
 
 ## **How to Reach Me**
-![indir](https://user-images.githubusercontent.com/33204265/115180246-d5326b80-a0dd-11eb-8c15-d20392a1808a.png)(https://www.linkedin.com/in/nesibe-cetin/)
+
 
