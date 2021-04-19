@@ -1,3 +1,4 @@
+
 # **ReCapProject** - Rent A Car Project
 
 ## **Introduction**
@@ -31,5 +32,5 @@ A car rental project developed with C# and .Net Core Framework. The project was 
 * **Exception Middleware**
 
 ## **How to Reach Me**
-
+![linkedIn_PNG38](https://user-images.githubusercontent.com/33204265/115180412-30645e00-a0de-11eb-9682-64964a95a3d0.png)
 
