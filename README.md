@@ -5,6 +5,7 @@
 
 A car rental project developed with C# and .Net Core Framework. The project was created by taking into account the layered architecture and SOLID principles.
 
+
 ## **Built With**
 * C#
 * .Net Core
@@ -33,4 +34,4 @@ A car rental project developed with C# and .Net Core Framework. The project was 
 
 ## **How to Reach Me**
 
-
+LINKEDIN(https://www.linkedin.com/in/nesibe-cetin/)
